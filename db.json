@@ -1,14 +1,99 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[
+    { "id": 1, "produit": "tomate", 
+        "information":
+        [
+                {
+                "nomRegion": "Abidjan",
+                "prixGros": 115,
+                "prixDetail": 150
+                },
+               {
+                "nomRegion": "Bouake",
+               "prixGros": 90,
+               "prixDetail": 130
+               },{
+                "nomRegion": "Aboisso",
+               "prixGros": 110,
+               "prixDetail": 140
+               },
+               {
+                "nomRegion": "Bonoua",
+               "prixGros": 150,
+               "prixDetail": 200
+               }
+        
+         ] },
+         
+         { "id": 2, "produit": "manioc", 
+            "information":
+            [
+                    {
+                    "nomRegion": "Abidjan",
+                    "prixGros": 500,
+                    "prixDetail": 600
+                    },
+                   {
+                    "nomRegion": "Bouake",
+                   "prixGros": 900,
+                   "prixDetail": 1300
+                   },{
+                    "nomRegion": "Aboisso",
+                   "prixGros": 1100,
+                   "prixDetail": 1400
+                   },
+                   {
+                    "nomRegion": "Bonoua",
+                   "prixGros": 1500,
+                   "prixDetail": 2000
+                   }
+            
+             ] },  
+             { "id": 3, "produit": "manioc", 
+                "information":
+                [
+                        {
+                        "nomRegion": "Abidjan",
+                        "prixGros": 500,
+                        "prixDetail": 600
+                        },
+                       {
+                        "nomRegion": "Bouake",
+                       "prixGros": 900,
+                       "prixDetail": 1300
+                       },{
+                        "nomRegion": "Aboisso",
+                       "prixGros": 1100,
+                       "prixDetail": 1400
+                       },
+                       {
+                        "nomRegion": "Bonoua",
+                       "prixGros": 1500,
+                       "prixDetail": 2000
+                       }
+                
+                 ] },  
+                 { "id": 4, "produit": "manioc", 
+                    "information":
+                    [
+                            {
+                            "nomRegion": "Abidjan",
+                            "prixGros": 500,
+                            "prixDetail": 600
+                            },
+                           {
+                            "nomRegion": "Bouake",
+                           "prixGros": 900,
+                           "prixDetail": 1300
+                           },{
+                            "nomRegion": "Aboisso",
+                           "prixGros": 1100,
+                           "prixDetail": 1400
+                           },
+                           {
+                            "nomRegion": "Bonoua",
+                           "prixGros": 1500,
+                           "prixDetail": 2000
+                           }
+                    
+                     ] }
+]
